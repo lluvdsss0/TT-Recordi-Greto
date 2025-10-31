@@ -5,7 +5,7 @@
 /* Основной контейнер для всего контента */
 .container {
   position: relative;
-  min-height: 15400px; /* Или больше, в зависимости от самого нижнего элемента */
+  min-height: 15400px;
   width: 100%;
   margin: 0 auto;
   padding: 0;
@@ -21,26 +21,6 @@ body {
   background-color: rgba(237, 242, 244, 1);
   margin: 0 auto;
   padding: 0;
-}
-
-header {
-  grid-row: 1;
-}
-
-main {
-  grid-row: 2;
-}
-
-footer {
-  grid-row: 3;
-}
-
-main {
-  flex: 1; /* Занимает всё доступное пространство */
-}
-
-footer {
-  margin-top: auto; /* Прижимает футер к низу */
 }
 
 section {
@@ -63,11 +43,13 @@ p {
   line-height: 1.5;
 }
 
-/* cover */
+/* обложка */
 .cover {
   position: relative;
 }
-#absolutely {
+
+/* абсолютно секретно */
+.cover #absolutely {
   font-size: 158px;
   color: rgba(217, 4, 41, 1);
   letter-spacing: -6px;
@@ -78,7 +60,7 @@ p {
   transform: rotate(-14deg);
 }
 
-#secret {
+.cover #secret {
   font-size: 158px;
   color: rgba(217, 4, 41, 1);
   letter-spacing: -6px;
@@ -89,7 +71,8 @@ p {
   transform: rotate(10deg);
 }
 
-#name {
+/* название шрифта */
+.cover #name {
   padding: 30px 220px;
   margin: 0 auto;
   border: solid;
@@ -102,23 +85,25 @@ p {
   left: 46px;
 }
 
-#name span {
+/* анимашка hover */
+.cover #name span {
   filter: blur(15px);
   transition: 1s;
 }
 
-#name span:hover {
+.cover #name span:hover {
   filter: blur(0px);
   transition: 1s;
 }
 
-/* about font */
+/* о шрифте*/
 
 .aboutfont {
   position: relative;
 }
 
-#aboutfonttitle {
+/* заголовок */
+.aboutfont #aboutfonttitle {
   margin-top: 300px;
 }
 
@@ -134,12 +119,13 @@ p {
   top: -50px;
 }
 
-#aboutfonttext {
+/* текст */
+.aboutfont #aboutfonttext {
   top: -15px;
   width: 954px;
 }
 
-#invino {
+.aboutfont #invino {
   position: relative;
   font-size: 262px;
   left: 42px;
@@ -147,7 +133,7 @@ p {
   letter-spacing: 44px;
 }
 
-#veritas {
+.aboutfont #veritas {
   position: relative;
   font-size: 262px;
   left: 42px;
@@ -155,9 +141,10 @@ p {
   letter-spacing: 44px;
 }
 
-/* font story */
+/* история шрифта */
 
-#fontstorytitle {
+/* заголовок */
+.fontstory #fontstorytitle {
   position: relative;
   left: 0px;
   top: 120px;
@@ -175,19 +162,22 @@ p {
   top: 75px;
 }
 
-#fontstorytext {
+/* текст */
+.fontstory #fontstorytext {
   position: relative;
   width: 982px;
   top: 105px;
 }
 
+/* слухи */
 .messages {
   position: relative;
   top: 195px;
   left: 36px;
 }
 
-#messagestext1 {
+/* тайная орг... */
+.fontstory #messagestext1 {
   position: absolute;
   width: 448px;
   top: 570px;
@@ -196,7 +186,8 @@ p {
   font-weight: 600;
 }
 
-#messagestext2 {
+/* тсс */
+.fontstory #messagestext2 {
   position: absolute;
   left: 735px;
   top: 570px;
@@ -204,7 +195,8 @@ p {
   color: rgba(217, 4, 41, 1);
 }
 
-#messagestext3 {
+/* людям... */
+.fontstory #messagestext3 {
   position: absolute;
   width: 279px;
   font-weight: 600;
@@ -213,7 +205,8 @@ p {
   color: rgba(217, 4, 41, 1);
 }
 
-#messagestext4 {
+/* убийство... */
+.fontstory #messagestext4 {
   position: absolute;
   width: 288px;
   font-weight: 600;
@@ -222,7 +215,8 @@ p {
   color: rgba(217, 4, 41, 1);
 }
 
-#messagestext5 {
+/* миром тайно... */
+.fontstory #messagestext5 {
   position: absolute;
   width: 458px;
   font-weight: 600;
@@ -231,7 +225,8 @@ p {
   color: rgba(255, 255, 255, 1);
 }
 
-#messagestext6 {
+/* тсс */
+.fontstory #messagestext6 {
   position: absolute;
   font-weight: 600;
   left: 125px;
@@ -239,7 +234,8 @@ p {
   color: rgba(255, 255, 255, 1);
 }
 
-#messagestext7 {
+/* наса... */
+.fontstory #messagestext7 {
   position: absolute;
   width: 501px;
   font-weight: 600;
@@ -248,7 +244,8 @@ p {
   color: rgba(255, 255, 255, 1);
 }
 
-#messagestext8 {
+/* тсс */
+.fontstory #messagestext8 {
   position: absolute;
   font-weight: 600;
   left: 1230px;
@@ -256,7 +253,8 @@ p {
   color: rgba(217, 4, 41, 1);
 }
 
-#louder {
+/* ГРОМЧЕ */
+.fontstory #louder {
   position: relative;
   transform: rotate(-16deg);
   font-size: 331px;
@@ -266,9 +264,10 @@ p {
   font-weight: 600;
 }
 
-/* font outlines */
+/* начертания */
 
-#founoutlinestitle {
+/* заголовок */
+.fontoutlines #founoutlinestitle {
   position: relative;
   left: 0px;
   top: 550px;
@@ -286,13 +285,14 @@ p {
   top: 502px;
 }
 
-#fontoutlinestext {
+/* текст */
+.fontoutlines #fontoutlinestext {
   position: relative;
   width: 598px;
   top: 535px;
 }
 
-/* media */
+/* документ */
 
 .media {
   position: relative;
@@ -300,7 +300,8 @@ p {
   top: 500px;
 }
 
-#fontdepartment {
+/* департамент шрифтов */
+.fontoutlines #fontdepartment {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   left: 555px;
@@ -309,7 +310,8 @@ p {
   transform: rotate(-11deg);
 }
 
-#usernamedate {
+/* Ксения Каратаева 2021 */
+.fontoutlines #usernamedate {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   font-size: 24px;
@@ -318,7 +320,7 @@ p {
   top: 935px;
 }
 
-#fontnametext {
+.fontoutlines #fontnametext {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   top: 1040px;
@@ -328,7 +330,7 @@ p {
   transform: rotate(-11deg);
 }
 
-#yeartext {
+.fontoutlines #yeartext {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   top: 1110px;
@@ -338,7 +340,7 @@ p {
   font-weight: 600;
 }
 
-#aboutdepartment {
+.fontoutlines #aboutdepartment {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   top: 1320px;
@@ -347,7 +349,7 @@ p {
   font-size: 22px;
 }
 
-#maindepartmenttext {
+.fontoutlines #maindepartmenttext {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   top: 1320px;
@@ -359,7 +361,7 @@ p {
   line-height: 1.5;
 }
 
-#lang {
+.fontoutlines #lang {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   top: 1860px;
@@ -368,7 +370,7 @@ p {
   transform: rotate(-11deg);
 }
 
-#langtext {
+.fontoutlines #langtext {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   top: 1822px;
@@ -378,7 +380,7 @@ p {
   transform: rotate(-11deg);
 }
 
-#outlinesmedia {
+.fontoutlines #outlinesmedia {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   top: 1918px;
