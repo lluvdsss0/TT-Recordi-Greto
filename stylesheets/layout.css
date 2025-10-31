@@ -1298,3 +1298,38 @@ p {
   left: 1172px;
   top: 2600px;
 }
+
+.final #end1 {
+  position: absolute;
+  font-size: 24px;
+  color: (12, 17, 36, 1);
+  left: 46px;
+  top: 3160px;
+}
+
+.final #end2 {
+  position: absolute;
+  font-size: 24px;
+  color: (12, 17, 36, 1);
+  left: 46px;
+  top: 3200px;
+}
+
+.final #end3 {
+  position: absolute;
+  font-size: 24px;
+  color: (12, 17, 36, 1);
+  left: 1355px;
+  top: 3160px;
+}
+
+.final #end4 {
+  position: absolute;
+  font-size: 24px;
+  color: (12, 17, 36, 1);
+  left: 1260px;
+  top: 3200px;
+  white-space: nowrap;
+  max-width: 90%;
+  overflow: hidden;
+}
