@@ -320,6 +320,7 @@ p {
   top: 935px;
 }
 
+/* название шрифта */
 .fontoutlines #fontnametext {
   position: absolute;
   color: rgba(12, 17, 36, 1);
@@ -330,6 +331,7 @@ p {
   transform: rotate(-11deg);
 }
 
+/* год создания */
 .fontoutlines #yeartext {
   position: absolute;
   color: rgba(12, 17, 36, 1);
@@ -340,6 +342,7 @@ p {
   font-weight: 600;
 }
 
+/* описание */
 .fontoutlines #aboutdepartment {
   position: absolute;
   color: rgba(12, 17, 36, 1);
@@ -349,6 +352,7 @@ p {
   font-size: 22px;
 }
 
+/* текст описания */
 .fontoutlines #maindepartmenttext {
   position: absolute;
   color: rgba(12, 17, 36, 1);
@@ -361,6 +365,7 @@ p {
   line-height: 1.5;
 }
 
+/* языки */
 .fontoutlines #lang {
   position: absolute;
   color: rgba(12, 17, 36, 1);
@@ -380,6 +385,7 @@ p {
   transform: rotate(-11deg);
 }
 
+/* начертания */
 .fontoutlines #outlinesmedia {
   position: absolute;
   color: rgba(12, 17, 36, 1);
@@ -389,7 +395,7 @@ p {
   font-size: 22px;
 }
 
-#outlinesmediatext {
+.fontoutlines #outlinesmediatext {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   top: 1888px;
@@ -399,7 +405,8 @@ p {
   transform: rotate(-11deg);
 }
 
-#glyphsmedia {
+/* глифы */
+.fontoutlines #glyphsmedia {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   top: 1990px;
@@ -408,7 +415,7 @@ p {
   font-size: 22px;
 }
 
-#glyphsmediatext {
+.fontoutlines #glyphsmediatext {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   top: 1943px;
@@ -418,7 +425,8 @@ p {
   transform: rotate(-11deg);
 }
 
-#secretly {
+/* печать «тайно» */
+.fontoutlines #secretly {
   position: absolute;
   padding: 14px 47px;
   margin: 0 auto;
@@ -433,7 +441,7 @@ p {
   left: 1088px;
 }
 
-/* article */
+/* статья */
 
 .article {
   position: absolute;
@@ -445,9 +453,9 @@ p {
   top: 845px;
 }
 
-/* article text */
+/* текст статьи */
 
-#conspiracy {
+.fontoutlines #conspiracy {
   position: absolute;
   color: rgba(217, 4, 41, 1);
   font-size: 27px;
@@ -457,7 +465,7 @@ p {
   transform: rotate(5deg);
 }
 
-#articletitle {
+.fontoutlines #articletitle {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   font-size: 33px;
@@ -469,7 +477,7 @@ p {
   top: 950px;
 }
 
-#articletext {
+.fontoutlines #articletext {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   font-size: 22px;
@@ -480,7 +488,8 @@ p {
   top: 1140px;
 }
 
-#highlyclassified {
+/* печать «абсолютно секретно» */
+.fontoutlines #highlyclassified {
   position: absolute;
   padding: 14px 47px;
   margin: 0 auto;
@@ -496,9 +505,10 @@ p {
   transform: rotate(-12deg);
 }
 
-/* font features */
+/* особенности шрифта */
 
-#fontfeaturestitle {
+/* заголовок */
+.fontfeatures #fontfeaturestitle {
   position: relative;
   left: 0px;
   top: 170px;
@@ -516,18 +526,21 @@ p {
   top: 128px;
 }
 
-#fontfeaturestext {
+/* текст */
+.fontfeatures #fontfeaturestext {
   position: relative;
   width: 468px;
   top: 155px;
 }
 
+/* космос */
 .space {
   position: relative;
   text-align: center;
   top: 150px;
 }
 
+/* особенности */
 .feature1 {
   position: absolute;
   top: 415px;
@@ -552,7 +565,7 @@ p {
   top: 1565px;
 }
 
-#feature1text {
+.fontfeatures #feature1text {
   position: absolute;
   font-size: 22px;
   color: rgba(217, 4, 41, 1);
@@ -560,7 +573,7 @@ p {
   top: 475px;
 }
 
-#feature2text {
+.fontfeatures #feature2text {
   position: absolute;
   font-size: 22px;
   color: rgba(217, 4, 41, 1);
@@ -568,7 +581,7 @@ p {
   top: 375px;
 }
 
-#feature3text {
+.fontfeatures #feature3text {
   position: absolute;
   font-size: 22px;
   color: rgba(217, 4, 41, 1);
@@ -578,7 +591,7 @@ p {
   line-height: 1.5;
 }
 
-#feature4text {
+.fontfeatures #feature4text {
   position: absolute;
   font-size: 22px;
   color: rgba(217, 4, 41, 1);
@@ -586,7 +599,8 @@ p {
   top: 1615px;
 }
 
-#Z {
+/* буквы */
+.fontfeatures #Z {
   position: absolute;
   left: 852px;
   font-size: 232px;
@@ -595,7 +609,7 @@ p {
   top: 745px;
 }
 
-#L {
+.fontfeatures #L {
   position: absolute;
   left: 350px;
   font-size: 232px;
@@ -604,7 +618,7 @@ p {
   top: 830px;
 }
 
-#E {
+.fontfeatures #E {
   position: absolute;
   left: 120px;
   font-size: 232px;
@@ -613,7 +627,7 @@ p {
   top: 990px;
 }
 
-#ufoletters {
+.fontfeatures #ufoletters {
   position: absolute;
   left: 778px;
   font-size: 112px;
@@ -622,9 +636,10 @@ p {
   top: 1120px;
 }
 
-/* plyphs */
+/* глифы */
 
-#glyphstitle {
+/* заголовок */
+.glyphs #glyphstitle {
   position: relative;
   left: 970px;
   top: 280px;
@@ -643,7 +658,8 @@ p {
   top: 233px;
 }
 
-#glyphstext {
+/* текст */
+.glyphs #glyphstext {
   position: relative;
   top: 265px;
   left: 690px;
@@ -655,9 +671,10 @@ p {
   left: 44px;
 }
 
-/* languages */
+/* языки */
 
-#languagestitle {
+/* заголовок */
+.languages #languagestitle {
   position: relative;
   left: 0px;
   top: 480px;
@@ -675,7 +692,8 @@ p {
   top: 432px;
 }
 
-#languagestext {
+/* текст */
+.languages #languagestext {
   position: relative;
   width: 468px;
   top: 465px;
@@ -687,9 +705,9 @@ p {
   top: 560px;
 }
 
-/* enumiration of languages */
+/* перечисление языков */
 
-#russian {
+.languages #russian {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   font-weight: 600;
@@ -697,7 +715,7 @@ p {
   top: 1060px;
 }
 
-#english {
+.languages #english {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   font-weight: 600;
@@ -705,7 +723,7 @@ p {
   top: 1030px;
 }
 
-#belarussian {
+.languages #belarussian {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   font-weight: 600;
@@ -713,7 +731,7 @@ p {
   top: 1080px;
 }
 
-#africaans {
+.languages #africaans {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   font-weight: 600;
@@ -721,7 +739,7 @@ p {
   top: 1120;
 }
 
-#kazakh {
+.languages #kazakh {
   position: absolute;
   color: rgba(12, 17, 36, 1);
   font-weight: 600;
@@ -729,9 +747,10 @@ p {
   top: 1110px;
 }
 
-/* numbers */
+/* цифры */
 
-#numberstitle {
+/* заголовок */
+.numbers #numberstitle {
   position: relative;
   left: 1145px;
   top: 590px;
@@ -750,13 +769,15 @@ p {
   top: 543px;
 }
 
-#numberstext {
+/* текст */
+.numbers #numberstext {
   position: relative;
   top: 575px;
   left: 715px;
 }
 
-#coordinates {
+/* координаты */
+.numbers #coordinates {
   position: relative;
   top: 670px;
   font-size: 177px;
@@ -868,9 +889,10 @@ p {
   top: 960px;
 }
 
-/* font geometry */
+/* геометрия шрифта */
 
-#fontgeometrytitle {
+/* заголовок */
+.fontgeometry #fontgeometrytitle {
   position: relative;
   left: 0px;
   top: 805px;
@@ -888,13 +910,15 @@ p {
   top: 682px;
 }
 
-#fontgeometrytext {
+/* текст */
+.fontgeometry #fontgeometrytext {
   position: relative;
   width: 768px;
   top: 835px;
 }
 
-#letters {
+/* буквы */
+.fontgeometry #letters {
   position: relative;
   font-size: 532px;
   color: rgba(12, 17, 36, 1);
@@ -936,7 +960,7 @@ p {
   top: 1120px;
 }
 
-#question1 {
+.fontgeometry #question1 {
   position: absolute;
   left: 450px;
   top: 1307px;
@@ -944,7 +968,7 @@ p {
   color: rgba(217, 4, 41, 1);
 }
 
-#question2 {
+.fontgeometry #question2 {
   position: absolute;
   left: 950px;
   top: 1307px;
@@ -952,7 +976,7 @@ p {
   color: rgba(217, 4, 41, 1);
 }
 
-#cornermeaning1 {
+.fontgeometry #cornermeaning1 {
   position: absolute;
   left: 565px;
   top: 1070px;
@@ -960,7 +984,7 @@ p {
   color: rgba(12, 17, 36, 1);
 }
 
-#cornermeaning2 {
+.fontgeometry #cornermeaning2 {
   position: absolute;
   left: 840px;
   top: 1070px;
@@ -968,9 +992,10 @@ p {
   color: rgba(12, 17, 36, 1);
 }
 
-/* font in use */
+/* применение шрифта */
 
-#fontinusetitle {
+/* заголовок */
+.fontinuse #fontinusetitle {
   position: relative;
   left: 0px;
   top: 955px;
@@ -988,12 +1013,14 @@ p {
   top: 912px;
 }
 
-#fontinusetext {
+/* текст */
+.fontinuse #fontinusetext {
   position: relative;
   width: 1146px;
   top: 940px;
 }
 
+/* карты таро */
 .taromain {
   position: relative;
   display: flex;
@@ -1165,7 +1192,8 @@ p {
   text-overflow: ellipsis;
   text-align: center;
 }
-/* final */
+
+/* конец */
 
 .ufo {
   position: relative;
@@ -1174,7 +1202,8 @@ p {
   top: 1060px;
 }
 
-#ufotext1 {
+/* текст под нло */
+.final #ufotext1 {
   position: absolute;
   text-align: center;
   width: 1044px;
@@ -1185,7 +1214,7 @@ p {
   line-height: 1.5;
 }
 
-#ufotext2 {
+.final #ufotext2 {
   position: absolute;
   text-align: center;
   width: 1064px;
@@ -1196,7 +1225,7 @@ p {
   top: 2300px;
 }
 
-#ufotext3 {
+.final #ufotext3 {
   position: absolute;
   text-align: center;
   width: 1044px;
@@ -1207,7 +1236,8 @@ p {
   top: 2450px;
 }
 
-#r {
+/* летающие буквы */
+.final #r {
   position: absolute;
   color: rgba(227, 235, 249, 1);
   font-size: 220px;
@@ -1216,7 +1246,7 @@ p {
   transform: rotate(25deg);
 }
 
-#i {
+.final #i {
   position: absolute;
   color: rgba(227, 235, 249, 1);
   font-size: 220px;
@@ -1225,7 +1255,7 @@ p {
   transform: rotate(-20deg);
 }
 
-#v {
+.final #v {
   position: absolute;
   color: rgba(227, 235, 249, 1);
   font-size: 220px;
@@ -1234,7 +1264,7 @@ p {
   transform: rotate(-40deg);
 }
 
-#h {
+.final #h {
   position: absolute;
   color: rgba(227, 235, 249, 1);
   font-size: 220px;
@@ -1243,7 +1273,7 @@ p {
   transform: rotate(-38deg);
 }
 
-#f {
+.final #f {
   position: absolute;
   color: rgba(227, 235, 249, 1);
   font-size: 220px;
@@ -1252,7 +1282,7 @@ p {
   transform: rotate(-83deg);
 }
 
-#a {
+.final #a {
   position: absolute;
   color: rgba(227, 235, 249, 1);
   font-size: 220px;
@@ -1261,7 +1291,7 @@ p {
   transform: rotate(23deg);
 }
 
-#e {
+.final #e {
   position: absolute;
   color: rgba(227, 235, 249, 1);
   font-size: 220px;
