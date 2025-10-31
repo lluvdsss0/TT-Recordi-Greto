@@ -1206,3 +1206,65 @@ p {
   line-height: 1.5;
   top: 2450px;
 }
+
+#r {
+  position: absolute;
+  color: rgba(227, 235, 249, 1);
+  font-size: 220px;
+  left: 105px;
+  top: 2500px;
+  transform: rotate(25deg);
+}
+
+#i {
+  position: absolute;
+  color: rgba(227, 235, 249, 1);
+  font-size: 220px;
+  left: 115px;
+  top: 2900px;
+  transform: rotate(-20deg);
+}
+
+#v {
+  position: absolute;
+  color: rgba(227, 235, 249, 1);
+  font-size: 220px;
+  left: 348px;
+  top: 2700px;
+  transform: rotate(-40deg);
+}
+
+#h {
+  position: absolute;
+  color: rgba(227, 235, 249, 1);
+  font-size: 220px;
+  left: 608px;
+  top: 2900px;
+  transform: rotate(-38deg);
+}
+
+#f {
+  position: absolute;
+  color: rgba(227, 235, 249, 1);
+  font-size: 220px;
+  left: 703px;
+  top: 2550px;
+  transform: rotate(-83deg);
+}
+
+#a {
+  position: absolute;
+  color: rgba(227, 235, 249, 1);
+  font-size: 220px;
+  left: 1021px;
+  top: 2900px;
+  transform: rotate(23deg);
+}
+
+#e {
+  position: absolute;
+  color: rgba(227, 235, 249, 1);
+  font-size: 220px;
+  left: 1172px;
+  top: 2600px;
+}
