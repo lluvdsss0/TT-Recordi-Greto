@@ -1,0 +1,1206 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Основной контейнер для всего контента */
+.container {
+  position: relative;
+  min-height: 15400px; /* Или больше, в зависимости от самого нижнего элемента */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  width: 1440px;
+  min-height: 100%;
+  display: block;
+  margin-bottom: 0;
+  position: relative;
+  font-family: "TTRicordiGreto";
+  background-color: rgba(237, 242, 244, 1);
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  grid-row: 1;
+}
+
+main {
+  grid-row: 2;
+}
+
+footer {
+  grid-row: 3;
+}
+
+main {
+  flex: 1; /* Занимает всё доступное пространство */
+}
+
+footer {
+  margin-top: auto; /* Прижимает футер к низу */
+}
+
+section {
+  position: relative;
+  display: block;
+}
+
+h2 {
+  position: relative;
+  font-size: 50px;
+  color: rgba(12, 17, 36, 1);
+  margin-left: 46px;
+}
+
+p {
+  position: relative;
+  font-size: 27px;
+  color: rgba(12, 17, 36, 1);
+  left: 46px;
+  line-height: 1.5;
+}
+
+/* cover */
+.cover {
+  position: relative;
+}
+#absolutely {
+  font-size: 158px;
+  color: rgba(217, 4, 41, 1);
+  letter-spacing: -6px;
+  font-weight: 600;
+  position: absolute;
+  top: 150px;
+  left: 5px;
+  transform: rotate(-14deg);
+}
+
+#secret {
+  font-size: 158px;
+  color: rgba(217, 4, 41, 1);
+  letter-spacing: -6px;
+  font-weight: 600;
+  position: absolute;
+  top: 360px;
+  left: 580px;
+  transform: rotate(10deg);
+}
+
+#name {
+  padding: 30px 220px;
+  margin: 0 auto;
+  border: solid;
+  border-color: rgba(217, 4, 41, 1);
+  border-width: 3px;
+  font-size: 108px;
+  color: #0c1124;
+  position: absolute;
+  top: 632px;
+  left: 46px;
+}
+
+#name span {
+  filter: blur(15px);
+  transition: 1s;
+}
+
+#name span:hover {
+  filter: blur(0px);
+  transition: 1s;
+}
+
+/* about font */
+
+.aboutfont {
+  position: relative;
+}
+
+#aboutfonttitle {
+  margin-top: 300px;
+}
+
+.arrow1 {
+  position: relative;
+  left: 350px;
+  top: -57px;
+}
+
+.plusvibe1 {
+  position: relative;
+  left: 1205px;
+  top: -50px;
+}
+
+#aboutfonttext {
+  top: -15px;
+  width: 954px;
+}
+
+#invino {
+  position: relative;
+  font-size: 262px;
+  left: 42px;
+  top: 40px;
+  letter-spacing: 44px;
+}
+
+#veritas {
+  position: relative;
+  font-size: 262px;
+  left: 42px;
+  top: 30px;
+  letter-spacing: 44px;
+}
+
+/* font story */
+
+#fontstorytitle {
+  position: relative;
+  left: 0px;
+  top: 120px;
+}
+
+.arrow2 {
+  position: relative;
+  left: 576px;
+  top: 65px;
+}
+
+.plusvibe2 {
+  position: relative;
+  left: 1205px;
+  top: 75px;
+}
+
+#fontstorytext {
+  position: relative;
+  width: 982px;
+  top: 105px;
+}
+
+.messages {
+  position: relative;
+  top: 195px;
+  left: 36px;
+}
+
+#messagestext1 {
+  position: absolute;
+  width: 448px;
+  top: 570px;
+  left: 88px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+}
+
+#messagestext2 {
+  position: absolute;
+  left: 735px;
+  top: 570px;
+  font-weight: 600;
+  color: rgba(217, 4, 41, 1);
+}
+
+#messagestext3 {
+  position: absolute;
+  width: 279px;
+  font-weight: 600;
+  left: 975px;
+  top: 555px;
+  color: rgba(217, 4, 41, 1);
+}
+
+#messagestext4 {
+  position: absolute;
+  width: 288px;
+  font-weight: 600;
+  left: 160px;
+  top: 860px;
+  color: rgba(217, 4, 41, 1);
+}
+
+#messagestext5 {
+  position: absolute;
+  width: 458px;
+  font-weight: 600;
+  left: 773px;
+  top: 845px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#messagestext6 {
+  position: absolute;
+  font-weight: 600;
+  left: 125px;
+  top: 1165px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#messagestext7 {
+  position: absolute;
+  width: 501px;
+  font-weight: 600;
+  left: 572px;
+  top: 1125px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#messagestext8 {
+  position: absolute;
+  font-weight: 600;
+  left: 1230px;
+  top: 1165px;
+  color: rgba(217, 4, 41, 1);
+}
+
+#louder {
+  position: relative;
+  transform: rotate(-16deg);
+  font-size: 331px;
+  color: rgba(217, 4, 41, 1);
+  left: 26px;
+  top: 285px;
+  font-weight: 600;
+}
+
+/* font outlines */
+
+#founoutlinestitle {
+  position: relative;
+  left: 0px;
+  top: 550px;
+}
+
+.arrow3 {
+  position: relative;
+  left: 455px;
+  top: 492px;
+}
+
+.plusvibe3 {
+  position: relative;
+  left: 1205px;
+  top: 502px;
+}
+
+#fontoutlinestext {
+  position: relative;
+  width: 598px;
+  top: 535px;
+}
+
+/* media */
+
+.media {
+  position: relative;
+  left: 46px;
+  top: 500px;
+}
+
+#fontdepartment {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  left: 555px;
+  font-size: 24px;
+  top: 900px;
+  transform: rotate(-11deg);
+}
+
+#usernamedate {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  font-size: 24px;
+  transform: rotate(-11deg);
+  left: 580px;
+  top: 935px;
+}
+
+#fontnametext {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  top: 1040px;
+  left: 735px;
+  font-size: 22px;
+  font-weight: 600;
+  transform: rotate(-11deg);
+}
+
+#yeartext {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  top: 1110px;
+  left: 740px;
+  transform: rotate(-11deg);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#aboutdepartment {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  top: 1320px;
+  left: 710px;
+  transform: rotate(-11deg);
+  font-size: 22px;
+}
+
+#maindepartmenttext {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  top: 1320px;
+  font-size: 22px;
+  font-weight: 600;
+  transform: rotate(-11deg);
+  width: 662px;
+  left: 725px;
+  line-height: 1.5;
+}
+
+#lang {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  top: 1860px;
+  left: 804px;
+  font-size: 22px;
+  transform: rotate(-11deg);
+}
+
+#langtext {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  top: 1822px;
+  left: 887px;
+  font-size: 22px;
+  font-weight: 600;
+  transform: rotate(-11deg);
+}
+
+#outlinesmedia {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  top: 1918px;
+  left: 815px;
+  transform: rotate(-11deg);
+  font-size: 22px;
+}
+
+#outlinesmediatext {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  top: 1888px;
+  left: 978px;
+  font-size: 22px;
+  font-weight: 600;
+  transform: rotate(-11deg);
+}
+
+#glyphsmedia {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  top: 1990px;
+  left: 830px;
+  transform: rotate(-11deg);
+  font-size: 22px;
+}
+
+#glyphsmediatext {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  top: 1943px;
+  left: 925px;
+  font-size: 22px;
+  font-weight: 600;
+  transform: rotate(-11deg);
+}
+
+#secretly {
+  position: absolute;
+  padding: 14px 47px;
+  margin: 0 auto;
+  border: solid;
+  border-color: rgba(217, 4, 41, 1);
+  background-color: rgba(199, 215, 242, 1);
+  border-width: 5px;
+  font-size: 54px;
+  color: rgba(217, 4, 41, 1);
+  position: absolute;
+  top: 1515px;
+  left: 1088px;
+}
+
+/* article */
+
+.article {
+  position: absolute;
+  height: 525px;
+  width: 890px;
+  background-color: rgba(255, 255, 255, 1);
+  left: -147px;
+  transform: rotate(5deg);
+  top: 845px;
+}
+
+/* article text */
+
+#conspiracy {
+  position: absolute;
+  color: rgba(217, 4, 41, 1);
+  font-size: 27px;
+  font-weight: 500;
+  left: -70px;
+  top: 870px;
+  transform: rotate(5deg);
+}
+
+#articletitle {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 1.5;
+  transform: rotate(5deg);
+  width: 656px;
+  left: -84px;
+  top: 950px;
+}
+
+#articletext {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  font-size: 22px;
+  line-height: 1.5;
+  transform: rotate(5deg);
+  width: 780px;
+  left: -100px;
+  top: 1140px;
+}
+
+#highlyclassified {
+  position: absolute;
+  padding: 14px 47px;
+  margin: 0 auto;
+  border: solid;
+  border-color: rgba(217, 4, 41, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border-width: 5px;
+  font-size: 54px;
+  color: rgba(217, 4, 41, 1);
+  position: absolute;
+  top: 1135px;
+  left: 47px;
+  transform: rotate(-12deg);
+}
+
+/* font features */
+
+#fontfeaturestitle {
+  position: relative;
+  left: 0px;
+  top: 170px;
+}
+
+.arrow4 {
+  position: relative;
+  left: 745px;
+  top: 118px;
+}
+
+.plusvibe4 {
+  position: relative;
+  left: 1205px;
+  top: 128px;
+}
+
+#fontfeaturestext {
+  position: relative;
+  width: 468px;
+  top: 155px;
+}
+
+.space {
+  position: relative;
+  text-align: center;
+  top: 150px;
+}
+
+.feature1 {
+  position: absolute;
+  top: 415px;
+  left: 436px;
+}
+
+.feature2 {
+  position: absolute;
+  top: 315px;
+  left: 922px;
+}
+
+.feature3 {
+  position: absolute;
+  left: 296px;
+  top: 1555px;
+}
+
+.feature4 {
+  position: absolute;
+  left: 1010px;
+  top: 1565px;
+}
+
+#feature1text {
+  position: absolute;
+  font-size: 22px;
+  color: rgba(217, 4, 41, 1);
+  left: 436px;
+  top: 475px;
+}
+
+#feature2text {
+  position: absolute;
+  font-size: 22px;
+  color: rgba(217, 4, 41, 1);
+  left: 922px;
+  top: 375px;
+}
+
+#feature3text {
+  position: absolute;
+  font-size: 22px;
+  color: rgba(217, 4, 41, 1);
+  left: 296px;
+  top: 1605px;
+  width: 254px;
+  line-height: 1.5;
+}
+
+#feature4text {
+  position: absolute;
+  font-size: 22px;
+  color: rgba(217, 4, 41, 1);
+  left: 1010px;
+  top: 1615px;
+}
+
+#Z {
+  position: absolute;
+  left: 852px;
+  font-size: 232px;
+  font-weight: 600;
+  color: rgba(237, 242, 244, 1);
+  top: 745px;
+}
+
+#L {
+  position: absolute;
+  left: 350px;
+  font-size: 232px;
+  font-weight: 600;
+  color: rgba(237, 242, 244, 1);
+  top: 830px;
+}
+
+#E {
+  position: absolute;
+  left: 120px;
+  font-size: 232px;
+  font-weight: 600;
+  color: rgba(237, 242, 244, 1);
+  top: 990px;
+}
+
+#ufoletters {
+  position: absolute;
+  left: 778px;
+  font-size: 112px;
+  font-weight: 600;
+  color: rgba(237, 242, 244, 1);
+  top: 1120px;
+}
+
+/* plyphs */
+
+#glyphstitle {
+  position: relative;
+  left: 970px;
+  top: 280px;
+}
+
+.arrow5 {
+  position: relative;
+  left: 860px;
+  top: 223px;
+  transform: scale(-1, 1);
+}
+
+.plusvibe5 {
+  position: relative;
+  left: -95px;
+  top: 233px;
+}
+
+#glyphstext {
+  position: relative;
+  top: 265px;
+  left: 690px;
+}
+
+.eyes {
+  position: relative;
+  top: 355px;
+  left: 44px;
+}
+
+/* languages */
+
+#languagestitle {
+  position: relative;
+  left: 0px;
+  top: 480px;
+}
+
+.arrow6 {
+  position: relative;
+  left: 400px;
+  top: 422px;
+}
+
+.plusvibe6 {
+  position: relative;
+  left: 1205px;
+  top: 432px;
+}
+
+#languagestext {
+  position: relative;
+  width: 468px;
+  top: 465px;
+}
+
+.earth {
+  position: relative;
+  left: 46px;
+  top: 560px;
+}
+
+/* enumiration of languages */
+
+#russian {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  font-weight: 600;
+  left: 842px;
+  top: 1060px;
+}
+
+#english {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  font-weight: 600;
+  left: 478px;
+  top: 1030px;
+}
+
+#belarussian {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  font-weight: 600;
+  left: 590px;
+  top: 1080px;
+}
+
+#africaans {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  font-weight: 600;
+  left: 415px;
+  top: 1120;
+}
+
+#kazakh {
+  position: absolute;
+  color: rgba(12, 17, 36, 1);
+  font-weight: 600;
+  left: 753px;
+  top: 1110px;
+}
+
+/* numbers */
+
+#numberstitle {
+  position: relative;
+  left: 1145px;
+  top: 590px;
+}
+
+.arrow7 {
+  position: relative;
+  left: 1035px;
+  top: 533px;
+  transform: scale(-1, 1);
+}
+
+.plusvibe7 {
+  position: relative;
+  left: -95px;
+  top: 543px;
+}
+
+#numberstext {
+  position: relative;
+  top: 575px;
+  left: 715px;
+}
+
+#coordinates {
+  position: relative;
+  top: 670px;
+  font-size: 177px;
+  color: rgba(12, 17, 36, 1);
+  left: 0px;
+  width: 780px;
+  line-height: 1;
+  background-color: rgba(199, 215, 242, 1);
+  height: 1215px;
+  width: 1440px;
+  justify-content: right;
+  text-align: right;
+  padding-right: 85px;
+  padding-top: 85px;
+}
+
+.four-pointed-star {
+  position: absolute;
+  margin: 10px auto;
+  width: 10px auto;
+  font-size: 200px;
+  transform: rotate(13deg);
+  top: 1700px;
+  left: 220px;
+}
+
+.four-pointed-star:before {
+  content: "";
+  position: absolute;
+  background: #edf2f4;
+  width: 40px;
+  height: 70px;
+  transform: rotate(-45deg) skewX(50deg) skewY(50deg);
+}
+
+.four-pointed-star:after {
+  content: "";
+  position: absolute;
+  background: #edf2f4;
+  width: 40px;
+  height: 70px;
+  transform: rotate(45deg) skewX(50deg) skewY(50deg);
+}
+
+.four-pointed-star2 {
+  position: absolute;
+  margin: 10px auto;
+  width: 10px auto;
+  font-size: 200px;
+  transform: rotate(13deg);
+  top: 1400px;
+  left: 280px;
+}
+
+.four-pointed-star2:before {
+  content: "";
+  position: absolute;
+  background: #edf2f4;
+  width: 20px;
+  height: 50px;
+  transform: rotate(-45deg) skewX(50deg) skewY(50deg);
+}
+
+.four-pointed-star2:after {
+  content: "";
+  position: absolute;
+  background: #edf2f4;
+  width: 20px;
+  height: 50px;
+  transform: rotate(45deg) skewX(50deg) skewY(50deg);
+}
+
+.rectangle4 {
+  position: absolute;
+  height: 123px;
+  width: 123px;
+  border-color: rgba(217, 4, 41, 1);
+  border-style: solid;
+  border-width: 6px;
+  left: 237px;
+  top: 1365px;
+}
+
+.rectangle5 {
+  position: absolute;
+  height: 165px;
+  width: 165px;
+  border-color: rgba(217, 4, 41, 1);
+  border-style: solid;
+  border-width: 6px;
+  left: 133px;
+  top: 1705px;
+}
+
+.moon {
+  position: absolute;
+  left: 160px;
+  top: 1000px;
+}
+
+.rectangle6 {
+  position: absolute;
+  height: 123px;
+  width: 123px;
+  border-color: rgba(217, 4, 41, 1);
+  border-style: solid;
+  border-width: 6px;
+  left: 175px;
+  top: 960px;
+}
+
+/* font geometry */
+
+#fontgeometrytitle {
+  position: relative;
+  left: 0px;
+  top: 805px;
+}
+
+.arrow8 {
+  position: relative;
+  left: 625px;
+  top: 672px;
+}
+
+.plusvibe8 {
+  position: relative;
+  left: 1205px;
+  top: 682px;
+}
+
+#fontgeometrytext {
+  position: relative;
+  width: 768px;
+  top: 835px;
+}
+
+#letters {
+  position: relative;
+  font-size: 532px;
+  color: rgba(12, 17, 36, 1);
+  text-align: center;
+  top: 900px;
+}
+
+.rectangle1 {
+  position: absolute;
+  height: 165px;
+  width: 165px;
+  border-color: rgba(217, 4, 41, 1);
+  border-style: solid;
+  border-width: 6px;
+  left: 368px;
+  top: 1265px;
+}
+
+.rectangle2 {
+  position: absolute;
+  height: 222px;
+  width: 222px;
+  border-color: rgba(217, 4, 41, 1);
+  border-style: solid;
+  border-width: 6px;
+  left: 890px;
+  top: 1230px;
+}
+
+.corner1 {
+  position: absolute;
+  left: 553px;
+  top: 1120px;
+}
+
+.corner2 {
+  position: absolute;
+  left: 826px;
+  top: 1120px;
+}
+
+#question1 {
+  position: absolute;
+  left: 450px;
+  top: 1307px;
+  font-size: 71px;
+  color: rgba(217, 4, 41, 1);
+}
+
+#question2 {
+  position: absolute;
+  left: 950px;
+  top: 1307px;
+  font-size: 71px;
+  color: rgba(217, 4, 41, 1);
+}
+
+#cornermeaning1 {
+  position: absolute;
+  left: 565px;
+  top: 1070px;
+  font-size: 39px;
+  color: rgba(12, 17, 36, 1);
+}
+
+#cornermeaning2 {
+  position: absolute;
+  left: 840px;
+  top: 1070px;
+  font-size: 39px;
+  color: rgba(12, 17, 36, 1);
+}
+
+/* font in use */
+
+#fontinusetitle {
+  position: relative;
+  left: 0px;
+  top: 955px;
+}
+
+.arrow9 {
+  position: relative;
+  left: 695px;
+  top: 902px;
+}
+
+.plusvibe9 {
+  position: relative;
+  left: 1205px;
+  top: 912px;
+}
+
+#fontinusetext {
+  position: relative;
+  width: 1146px;
+  top: 940px;
+}
+
+.taromain {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  top: 1100px;
+}
+
+/* 1 карточка таро */
+
+.taro1 {
+  justify-content: space-between;
+  position: relative;
+  background-color: rgba(217, 4, 41, 1);
+  width: 514px;
+  height: 878px;
+  padding: 30px 22px 58px 22px;
+  transform: rotate(-11deg);
+  margin-right: -110px;
+}
+
+.taro1title {
+  display: flex;
+  gap: 122px;
+}
+
+/*шпион*/
+.taro1title #spy {
+  font-size: 19px;
+  color: #edf2f4;
+}
+
+/*XI*/
+.taro1title #xi {
+  font-size: 40px;
+  color: #edf2f4;
+}
+
+/*миссия*/
+.taro1title #mission {
+  font-size: 19px;
+  color: #edf2f4;
+}
+
+/* картинка агента */
+.agent13 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* агент 13 */
+#agent13text {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  position: absolute;
+  bottom: 58px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* 2 карточка таро */
+.taro2 {
+  justify-content: space-between;
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 514px;
+  height: 878px;
+  padding: 30px 22px 58px 22px;
+  margin-top: -80px;
+}
+
+.taro2title {
+  display: flex;
+  gap: 122px;
+  justify-content: center;
+}
+
+.taro2title #sign {
+  font-size: 19px;
+  color: rgba(217, 4, 41, 1);
+}
+
+.taro2title #iv {
+  font-size: 40px;
+  color: rgba(217, 4, 41, 1);
+}
+
+.taro2title #gibrid {
+  font-size: 19px;
+  color: rgba(217, 4, 41, 1);
+}
+
+.alien {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ufospectator {
+  font-size: 40px;
+  color: rgba(217, 4, 41, 1);
+  font-weight: 600;
+  position: absolute;
+  bottom: 58px;
+  left: 50%;
+  transform: translate(-50%);
+  white-space: nowrap;
+  max-width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+/* 3 карточка таро */
+.taro3 {
+  position: relative;
+  background-image: url(../svg/oco.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 514px;
+  height: 878px;
+  padding: 30px 22px 58px 22px;
+  transform: rotate(11deg);
+  margin-left: -110px;
+}
+
+.taro3title {
+  display: flex;
+  gap: 122px;
+  text-align: center;
+}
+
+/*шпион*/
+.taro3title #aragorn {
+  font-size: 19px;
+  color: rgba(217, 4, 41, 1);
+}
+
+/*XI*/
+.taro3title #ix {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+}
+
+/*миссия*/
+.taro3title #fate {
+  font-size: 19px;
+  color: rgba(217, 4, 41, 1);
+}
+
+/* агент 13 */
+#ocotext {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  position: absolute;
+  bottom: 58px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  max-width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+/* final */
+
+.ufo {
+  position: relative;
+  text-align: center;
+  left: -510px;
+  top: 1060px;
+}
+
+#ufotext1 {
+  position: absolute;
+  text-align: center;
+  width: 1044px;
+  display: flex;
+  left: 198px;
+  top: 2150px;
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+#ufotext2 {
+  position: absolute;
+  text-align: center;
+  width: 1064px;
+  display: flex;
+  left: 188px;
+  font-size: 40px;
+  line-height: 1.5;
+  top: 2300px;
+}
+
+#ufotext3 {
+  position: absolute;
+  text-align: center;
+  width: 1044px;
+  display: flex;
+  left: 290px;
+  font-size: 40px;
+  line-height: 1.5;
+  top: 2450px;
+}

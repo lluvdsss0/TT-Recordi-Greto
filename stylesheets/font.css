@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "TTRicordiGreto";
+  src: url(../font/TTRicordiGretoEducationalRegular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "TTRicordiGreto";
+  src: url(../font/TTRicordiGretoEducationalMedium.ttf) format("truetype");
+  font-style: medium;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "TTRicordiGreto";
+  src: url(../font/TTRicordiGretoEducationalDemiBold.ttf) format("truetype");
+  font-style: bold;
+  font-weight: 600;
+}
